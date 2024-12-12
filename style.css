@@ -1,0 +1,253 @@
+body {
+    background-image: url(imagenes/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Merriweather Sans", sans-serif;
+  }
+  
+  .navbar-toggler {
+    border: none; 
+    margin-left: auto; 
+    background-color: beige;
+  }
+  
+  
+  .navbar-nav {
+    margin-left: auto; 
+    color: beige;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: rgb(255, 255, 255); 
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff; 
+  }
+  
+ 
+  .navbar-toggler-icon {
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  @media (max-width: 991px) {
+    
+    .navbar-toggler {
+      display: block; 
+    }
+    
+    .navbar-nav {
+      text-align: right; 
+    }
+  
+    .navbar-collapse {
+      display: block !important; 
+    }
+  
+
+    .navbar-nav .nav-item {
+      display: block; 
+    }
+  
+   
+    .d-none.d-md-block {
+      display: none; 
+    }
+  }
+  
+ 
+  @media (min-width: 1200px) {
+    .d-none.d-md-block {
+      display: block; 
+    }
+    
+    .navbar-nav {
+      display: none; 
+    }
+  }
+  
+
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn {
+    border-color: beige !important;
+    color: rgb(255, 255, 255) !important;
+    margin: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #5a1a38 !important;
+    color: rgb(255, 255, 255);
+    border-color: #ffffff;
+  }
+  
+  span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-family: "Rowdies", sans-serif;
+  }
+  .container {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    margin: 10px; 
+  }
+
+
+  .container img {
+    width: 350px; 
+    height: auto;
+    margin-right: 30px; 
+    float: left;
+  }
+
+
+  .text {
+    max-width: 500px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Merriweather Sans", sans-serif;
+  }
+  .text1 {
+    max-width: 600px;
+    font-size:1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+    
+    
+  }
+  .text1 p{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .video-container {
+    width: 300%; 
+    height: 300px; 
+    background-color: #000; 
+    border-radius: 10px; 
+    overflow: hidden;
+    margin: 20px;
+  }
+
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .botonabajo {
+    background-color: #3d0524; 
+    color: rgb(255, 255, 255); 
+    padding: 20px; 
+    border: none;
+    border-radius: 10px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    margin: 10px;
+    font-family:Rowdies,sans-serif;
+    
+  }
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+  }
+  .botonabajo:hover {
+    background-color: #3b2e08; 
+  }
+  .container1 {
+    display: flex;
+    height: calc(100vh - 50px); 
+
+}
+.contenedor-imagenes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.imagen-pequeña{
+  width: 10%;
+  margin: 10px;
+
+}
+.textocentrado{
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 30px;
+}
+.contenedor-imagenes1{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.imagen-horizonal{
+  
+  margin: 10px;
+  object-fit: cover;
+}
+.imagen-vertical{
+  scale: 1.0;
+  object-fit: cover;
+  margin: 10px;
+}
+.texto-p1{
+  text-align: left;
+   margin: 100px;
+  color: #ffffff;
+  font-size: 2px;
+  margin-top: 1px;
+}
+.texto-abajo1{
+  text-align: center;
+  margin: 40px;
+ color: #ffffff;
+ font-size: 30px;
+ margin-top: 1px; }
+
+ .imageny{
+  display: flex;
+  justify-content: center !important;
+  text-align: center;
+  width: 200px;
+  margin: 580px;
+  margin-top: 5px;
+ }
+ .imagennoti{
+  display: flex;
+  width: 300px;
+
+ }
+ .textoser{
+  text-align: center;
+  margin: 40px;
+ color: #ffffff;
+ font-size: 30px;
+ margin-top: 1px; }
+
+.imagen-redes{
+ width: 50%;
+  margin: 20px;
+  justify-content: center !important;
+ }
+
+
+ 
+
+
